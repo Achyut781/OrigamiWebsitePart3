@@ -1,0 +1,80 @@
+h1 {
+    color: orangered;
+}
+
+ * {
+    border: solid;
+}
+h2{
+    color:lightcoral;
+}
+
+*{
+    border:solid;
+}
+.header{
+    background-color: orange;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.body{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between;
+}
+body{
+    background-image: linear-gradient(rgba(17, 43, 194, 0.822), rgba(255, 0, 191, 0.788)),
+    url("origami.jpg");;
+    font-style: italic;
+    border-color: goldenrod;
+    font-family: fantasy;
+}
+.grid{
+    background-image: linear-gradient(rgba(22, 175, 168, 0.973), rgba(25, 0, 255, 0.788)),
+    url("origami.jpg");;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.origami{
+    background-color: #DFFF00;
+    font-style:oblique;
+    text-transform: initial;
+    border-radius: 20px;
+    background-blend-mode: luminosity;
+    width:310px;
+    font-family:cursive;
+    margin:25px;
+    padding: 25px;
+}
+.menu{
+    background-color:khaki;
+    margin-left: 550px;
+    justify-content: space-between;
+    padding:20px;
+    font-family:cursive;
+    background-origin: content-box;
+    text-rendering: geometricPrecision;
+    font-weight: 400;
+    display:flex;
+}
+.title{
+    background-color: lavenderblush;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+.subtitle{
+    background-color:pink;
+    text-emphasis-color: plum;
+    justify-content: space-between;
+    padding:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-origin: content-box;
+    text-rendering: geometricPrecision;
+    font-weight: 300;
+    display:flex;
+    font-size: 30;
+}
